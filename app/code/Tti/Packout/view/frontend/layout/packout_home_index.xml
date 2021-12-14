@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="default"
+    xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+       <!-- for css file -->
+       <css src="Tti_Packout::css/tailwind.css"/>
+       <css src="Tti_Packout::css/slick.css" />
+
+       <!-- for js file -->
+       <script src="Tti_Packout::js/home.js"/>
+       
+       
+       <!-- src="Webkul_Grid::js/grid.js" that mean from here get file -->
+       <!-- Webkul_Grid is module name, js/grid.js and css/grid.css are location of files in web folder of module  -->
+    </head>
+    <body>
+        <referenceContainer name="tti.packout">
+            <block class="Tti\Packout\Block\Index" name="packout" template="Tti_Packout::index.phtml" />
+        </referenceContainer>
+    </body>
+</page>

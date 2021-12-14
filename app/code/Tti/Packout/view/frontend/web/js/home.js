@@ -37,8 +37,6 @@ require(['jquery', 'slick'], function($) {
     }
 
     function changeLine(num) {
-        console.log(num)
-        var image = $('.image-list img:first').attr('data-image');
         var lineSite = $('.line-card-site');
         var lineTransit = $('.line-card-transit');
         if (num === 1) {

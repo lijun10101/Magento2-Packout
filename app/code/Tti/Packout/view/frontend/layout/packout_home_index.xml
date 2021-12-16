@@ -3,7 +3,7 @@
     xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <head>
        <!-- for css file -->
-       <css src="Tti_Packout::css/tailwind.css"/>
+       <css src="Tti_Packout::css/home.css"/>
        <css src="Tti_Packout::css/slick.css" />
 
        <!-- for js file -->
